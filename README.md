@@ -1,4 +1,5 @@
 <h1>UX Hawk Portfolio</h1>
+<p>Open <a href="https://uxhawk.github.io/gw-hmwk-02-portfolio/">UX Hawk Portfolio</a></p>
 <p>This portfolio includes a light and dark theme and simplified layouts. The key design elements include:</p>
 <ul>
     <li>Navbar with icons that function as navigation</li>
