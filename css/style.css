@@ -145,11 +145,15 @@ blockquote {
 }
 
 ul {
-    list-style-type: none;
+    //list-style-type: none;
 }
 
 .bold {
     font-weight: 400;
+}
+
+.bolder {
+    font-weight: bold;
 }
 
 /* -------Card Styles------- */
