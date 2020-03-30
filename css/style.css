@@ -4,7 +4,7 @@
     --global-text-color: #11131f;
     --global-link-color: #11131f;
     --global-link-hover: #11131f;
-    --global-footer-bg: #375a7f;
+    --global-footer-bg: #222;
     --global-footer-color: #ffffff;
     --global-card-bg: #ffffff;
     --global-card-border: 1px solid #dee2e6;
@@ -165,6 +165,10 @@ ul {
 .card-footer {
     background-color: var(--global-card-footer);
     border-top: var(--global-card-border);
+}
+
+.card-img {
+    min-height: 300px;
 }
 
 /* -------Modal Styles------- */
