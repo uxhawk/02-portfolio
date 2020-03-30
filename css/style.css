@@ -32,8 +32,8 @@ html[data-theme='dark'] {
 }
 
 body {
-    /* transition: background 500ms ease-in-out, color 500ms ease-in-out; */
-    /* transition: 500ms ease-in-out; */
+    transition: background 500ms ease-in-out, color 500ms ease-in-out;
+    transition: 500ms ease-in-out;
     padding-top: 150px;
     background-color: var(--global-bg-color);
 }
