@@ -71,6 +71,10 @@ small {
     font-family: var(--global-font-family);
 }
 
+.no-underline {
+    text-decoration: none !important;
+}
+
 h1 {
     font-size: 24px;
     color: var(--global-text-color);
@@ -156,6 +160,15 @@ ul {
 .bolder {
     font-weight: bold;
     font-family: var(--global-font-family);
+}
+
+/* -------Menu Styles------- */
+
+.dropdown-menu-center {
+    left: 50% !important;
+    right: auto !important;
+    text-align: center !important;
+    transform: translate(-50%, 25px) !important;
 }
 
 /* -------Card Styles------- */
