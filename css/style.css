@@ -59,7 +59,7 @@ header {
 
 h1,
 h2,
-h2,
+h3,
 h4,
 h5,
 ul,
@@ -145,15 +145,17 @@ blockquote {
 }
 
 ul {
-    //list-style-type: none;
+    /* list-style-type: none; */
 }
 
 .bold {
     font-weight: 400;
+    font-family: var(--global-font-family);
 }
 
 .bolder {
     font-weight: bold;
+    font-family: var(--global-font-family);
 }
 
 /* -------Card Styles------- */
