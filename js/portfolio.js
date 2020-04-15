@@ -1,6 +1,5 @@
 var theme = "light";
 const htmlTag = document.getElementsByTagName("html")[0];
-const body = document.getElementsByName("body")[0];
 const themeBtn = document.getElementById("theme-btn");
 
 function init() {
