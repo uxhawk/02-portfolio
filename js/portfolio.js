@@ -10,7 +10,6 @@ function init() {
         theme = storedTheme;
     }
     setStyle();
-
 }
 
 function storeTheme() {
@@ -32,18 +31,14 @@ function setStyle() {
 function toggleTheme() {
     if (theme === "light") {
         theme = "dark";
-        storeTheme();
 
-        htmlTag.setAttribute("data-theme", "dark");
-        themeBtn.classList.remove("far", "fa-moon");
-        themeBtn.classList.add("fas", "fa-sun");
+        storeTheme();
+        setStyle();
     } else {
         theme = "light"
-        storeTheme();
 
-        htmlTag.removeAttribute("data-theme");
-        themeBtn.classList.add("far", "fa-moon");
-        themeBtn.classList.remove("fas", "fa-sun");
+        storeTheme();
+        setStyle();
     }
 }
 
