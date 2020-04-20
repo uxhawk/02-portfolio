@@ -148,10 +148,6 @@ blockquote {
     font-family: "Roboto-Thin";
 }
 
-ul {
-    /* list-style-type: none; */
-}
-
 .bold {
     font-weight: 400;
     font-family: var(--global-font-family);
@@ -234,6 +230,19 @@ ul {
 .card-img {
     min-height: 300px;
 }
+
+/* -------Carousel Styles------- */
+.carousel-img {
+
+    min-width: 200px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+
 
 /* -------Modal Styles------- */
 .modal-content {
